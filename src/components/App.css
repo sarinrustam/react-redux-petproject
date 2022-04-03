@@ -1,0 +1,77 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.app__cash {
+  font-size: 52px;
+}
+
+.app__clients {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__clients-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 10px
+}
+
+.app__clients-item {
+  font-size: 22px;
+  color: darkblue;
+}
+
+.app__clients-item:hover {
+  cursor: pointer;
+  color: black;
+  transform: scale(1.02);
+}
+
+.app__clients-item:active {
+  transform: scale(0.9);
+}
+
+.app__no-clients {
+  font-size: 42px;
+  margin: 0;
+  color: lightgrey;
+}
+
+.app__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__buttons-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.app__button {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:15px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-right: 5px;
+}
+.app__button:hover {
+	background-color:#5cbf2a;
+}
+.app__button:active {
+	position:relative;
+	top:1px;
+}
+
